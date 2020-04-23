@@ -1,0 +1,23 @@
+{
+  "path": "",
+  "dirs": [
+    {
+      "path": "/challenge-1",
+      "files": [
+        {
+          "path": "/index.js"
+        }
+      ]
+    },
+    {
+      "path": "/challenge-2",
+      "files": [
+        {
+          "path": "/index.js"
+        }
+      ]
+    }
+  ],
+  "lastBuild": "2020-04-23T13:12:36.350Z",
+  "title": "repo name"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cross-env-test-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js && node server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

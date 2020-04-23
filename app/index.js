@@ -1,7 +1,7 @@
 import ExerciseInJsTutor from './in-js-tutor.js';
 import LiveStudy from './live-study.js';
 
-fetch('./exercises/index.json')
+fetch('./index.json')
   .then(res => res.json())
   .then(index => {
     const exercisesDir = ExerciseInJsTutor.populate(index);

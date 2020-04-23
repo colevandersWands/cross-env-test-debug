@@ -3,8 +3,7 @@ export default class Exercise {
   static populate(data, path) {
     path = path || data.path;
     if (data.files) {
-      data.exercises = data.files
-        .map(relPath => new this(relPath, path));
+      data.exercise = new this(data.files[0], path);
     };
     if (data.dirs) {
       data.dirs.forEach(subDir => this.populate(subDir, path + subDir.path));
@@ -69,7 +68,7 @@ export default class Exercise {
   render() {
 
     const runButtonEl = document.createElement('button');
-    runButtonEl.innerHTML = 'run: ' + this.path.rel;
+    runButtonEl.innerHTML = this.path.abs.replace(this.path.rel, '').replace('/', '');
     runButtonEl.onclick = () => {
       this
         .fetchCode('\n--- fetching: ' + this.path.abs + ' ---')

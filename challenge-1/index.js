@@ -3,7 +3,7 @@ function x() {
 }
 
 
-
+console.log('challenge 1')
 // debug scripts go directly in this file
 // this way they can practice debugging in browser or node
 //  no 'require' issues
