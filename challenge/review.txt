@@ -1,0 +1,1 @@
+using/writing a basic test reporter that writes the most recent results to a file is helpful for coaches to review assignments, and students to review their work

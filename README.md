@@ -8,3 +8,4 @@ a boilerplate setup for basic coding challenges
     * but it does mean that they can seamlessly debug their functions either in the browser or in node
     * and than their debugger won't jump across files when they step through their debug scripts
   * having a separate `debug.js` file in each challenge directory is possible, but then you have 'require' gymnastics
+* use/find a test reporter that writes results to a file in the challenge directory each time the tests are run
